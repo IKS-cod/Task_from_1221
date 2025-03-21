@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: test-example
+  datasource:
+    url: jdbc:postgresql://localhost:5433/tw2
+    username: student
+    password: chocolatefrog
+    driverClassName: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+#      create-drop
+    show-sql: true
